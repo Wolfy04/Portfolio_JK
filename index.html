@@ -1,15 +1,116 @@
 <!DOCTYPE html>
 <html lang="fr-FR">
-	<!-- Indication page -->
-<head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="stylesflex.css">
-</head>
-<!-- Body construction du site -->
+	<head>
+		<title> Portfolio Joanna Kehrli</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+	</head>
 	<body>
-		<div>
-			<h1>Hello</h1>
+
+<!-- titre et menu -->
+		<div id="container">
+			<div id="header">
+				<div id="titre">
+					<h1>JOANNA KEHRLI</h1>
+				</div>
+
+				<div id="menu">
+					<nav>
+						<ul>
+							<li><a href="" title="about">About me</a></li>
+							<li><a href="" title="resume">Resume</a></li>
+							<li><a href="" title="work">Work</a></li>
+							<li><a href="" title="hobbies">Hobbies</a></li>
+							<li><a href="" title="contact">Contact me</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+
+	<!-- About  -->
+			<div id="aboutme">	
+				<img src="back.jpg"/>
+
+				<h2>Who am i ?</h2>
+
+				<p>I’m a Digital Communication officer based in France. I got a communication Master degree in Mulhouse and Sherbrooke in 2016. I used to work in a Chocolate Factory and as Freelance and volunteer for small entrepreneurs around France and Swizerland.</p>
+
+				<p>I'm interested in new technologies, also in gastronomy and animals care.</p>
+
+			</div>
+
+	<!-- Resume  -->
+			<div id="work">		
+				
+			</div>
+	<!-- Work  -->
+			<div id="resume">	
+
+			<h2>My Degree</h2>
+
+				<div class="diplomes">
+
+					<h4 onclick="show($('#2018'))">2018</h4>
+				<div id="2018" class="annee">
+					<p>Certificat Développeur web </p>
+					<p>IT Akademy à Saint Genis-Pouilly</p>
+					<p>France </p>
+				</div>
+
+					<h4 onclick="show($('#2016'))">2016</h4>
+				<div id="2016" class="annee">
+					<p>Double Master en Communication et Edition Numérique </p>
+					<p>Université de Haute Alsace - Université Pasquale Paoli de Corse - Université de Sherbrooke</p>
+					<p>France - Canada</p>
+				</div>
+
+					<h4 onclick="show($('#2013'))">2013</h4>
+				<div id="2013" class="annee">
+					<p>Licence Information et Communication </p>
+					<p>Université Pasquale Paoli de Corse</p>
+					<p>France</p>
+				</div>
+
+					<h4 onclick="show($('#2012'))">2012</h4>
+				<div id="2012" class="annee">
+					<p>Brevet de technicien supérieur en Communication </p>
+					<p>Ecole europe Technique Strasbourg</p>
+					<p>France</p>
+				</div>
+			</div>
+			</div>
+	<!-- Hobbies  -->
+			<div id="hobbies">		
+				
+			</div>
+
+	<!-- Contact me  -->
+			<div id="contactme">
+				<form action="/ma-page-de-traitement" method="post">
+				    <div>
+				        <label for="name">Name</label><br>
+				        <input type="text" id="name" name="user_name" size="35" placeholder="Name">
+				    </div>
+				    <div>
+				        <label for="mail">Email</label><br>
+				        <input type="email" id="mail" name="user_mail" size="35" placeholder="Email">
+				    </div>
+				    <div>
+				        <label for="msg">Message</label><br>
+				        <textarea id="msg" name="user_message" placeholder="Say something"></textarea>
+				    </div>
+					<div>
+						<button type="submit" form="form1" value="Submit">Submit</button>
+					</div>
+
+				</form>
+
+			</div>
+
+			<footer>
+				
+			</footer>
 		</div>
 	</body>
-
 </html>

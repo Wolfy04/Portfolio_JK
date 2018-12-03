@@ -1,0 +1,112 @@
+body
+{
+	font-size:20px;
+	margin-left:0px;
+	font-family: 'Allerta Stencil', sans-serif;
+	background-image: white;
+	background-repeat: no-repeat;
+	opacity:0.75;
+}
+
+#header
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 10px;
+	background-color: #333;
+
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+
+	align-items: center;
+}
+
+#header, #header a
+{
+	color: burlywood;
+}
+
+#header nav ul
+{
+	display: flex;
+	list-style: none;
+}
+
+#menu a
+{
+	text-decoration: none;
+}
+
+#header nav li
+{
+	margin-left: 10px;
+}
+
+#aboutme
+{
+	display: flex;
+	justify-content: flex-end;
+	width: 600px;
+	text-align:justify;
+	flex-wrap: wrap;
+	margin-top:150px;
+	margin-left: 30px;
+}
+
+.diplomes > h4{
+	cursor: pointer;
+}
+
+.diplomes{
+	margin-left: 60px;
+}
+
+#resume
+{
+	display: flex;
+	justify-content: center;
+	text-align:justify;
+	flex-wrap: wrap;
+	margin-top:150px;
+	align-content: center;
+	margin-left: 60px;
+	margin-right: 900px;
+}
+
+#contactme
+{
+	width : 150px;
+	margin: 0;
+	box-sizing: border-box;
+	background:;
+	width: 600px;
+	height: 300px;
+	line-height: 24px;
+	padding: 10px;
+	border: 0.5px solid #CFCFCE;
+ 	border: inset 1px solid grey;
+ 	border-radius: 10px;
+}
+
+label
+{
+  margin-left: 20px;
+}
+
+input
+{
+  margin-left: 20px;
+}
+
+textarea
+{
+  margin-left: 20px;
+}
+
+button
+{
+  margin-left: 20px;
+}
